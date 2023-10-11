@@ -2081,15 +2081,10 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-1.3.3.tgz#bbe64987e0eb05de150c305005055c7ad784a9ce"
   integrity sha512-Ys+/St+2VF4+xuY6+kDIXGxbNRO0mesVg0bbxEfB97Od1Vjpjx9KD1qxs64Gcb3CWPirk9Xe+PT4YiiHQ9T+eg==
 
-"@types/node@*":
+"@types/node@*", "@types/node@^20.8.3":
   version "20.8.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.3.tgz#c4ae2bb1cfab2999ed441a95c122bbbe1567a66d"
   integrity sha512-jxiZQFpb+NlH5kjW49vXxvxTjeeqlbsnTAdBTKpzEdPs9itay7MscYXz3Fo9VYFEsfQ6LJFitHad3faerLAjCw==
-
-"@types/node@^16.7.13":
-  version "16.18.58"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.58.tgz#bf66f63983104ed57c754f4e84ccaf16f8235adb"
-  integrity sha512-YGncyA25/MaVtQkjWW9r0EFBukZ+JulsLcVZBlGUfIb96OBMjkoRWwQo5IEWJ8Fj06Go3GHw+bjYDitv6BaGsA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -6259,6 +6254,13 @@ klona@^2.0.4, klona@^2.0.5:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
   integrity sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==
 
+lamejs@^1.2.0, lamejs@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lamejs/-/lamejs-1.2.1.tgz#0f92d38729213f106d4a19ded20821da7e89c8e4"
+  integrity sha512-s7bxvjvYthw6oPLCm5pFxvA84wUROODB8jEO2+CE1adhKgrIvVOlmMgY8zyugxGrvRaDHNJanOiS21/emty6dQ==
+  dependencies:
+    use-strict "1.0.1"
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"
@@ -6483,6 +6485,13 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==
+
+mic-recorder-to-mp3@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/mic-recorder-to-mp3/-/mic-recorder-to-mp3-2.2.2.tgz#32e767d1196fb81d10e279f31c304350c9501d01"
+  integrity sha512-xDkOaHbojW3bdKOGn9CI5dT+Mc0RrfczsX/Y1zGJp3FUB4zei5ZKFnNm7Nguc9v910wkd7T3csnCTq5EtCF3Zw==
+  dependencies:
+    lamejs "^1.2.0"
 
 micromatch@^4.0.2, micromatch@^4.0.4, micromatch@^4.0.5:
   version "4.0.5"
@@ -7719,6 +7728,11 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
+react-audio-visualize@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/react-audio-visualize/-/react-audio-visualize-1.1.3.tgz#7bf06061cb8df91e289e4ff06f5a430f8c2ecc02"
+  integrity sha512-gvKcmyfJP6XQrzCJeEK4z/lBL/qijqWD6JArZBfaaf5ZxEQPMfQhTipG0LJIUcBYxzVO1rvIhj4ex+/5MRYTFA==
+
 react-dev-utils@^12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-12.0.1.tgz#ba92edb4a1f379bd46ccd6bcd4e7bc398df33e73"
@@ -8710,7 +8724,7 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-tailwindcss@^3.0.2:
+tailwindcss@^3.0.2, tailwindcss@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.3.tgz#90da807393a2859189e48e9e7000e6880a736daf"
   integrity sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==
@@ -9098,6 +9112,11 @@ url-parse@^1.5.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
+
+use-strict@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/use-strict/-/use-strict-1.0.1.tgz#0bb80d94f49a4a05192b84a8c7d34e95f1a7e3a0"
+  integrity sha512-IeiWvvEXfW5ltKVMkxq6FvNf2LojMKvB2OCeja6+ct24S1XOmQw2dGr2JyndwACWAGJva9B7yPHwAmeA9QCqAQ==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
